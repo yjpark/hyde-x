@@ -173,8 +173,8 @@ a.sidebar-nav-item:focus {
  */
 
 .layout-none .content {
-  padding-top:    2rem;
-  padding-bottom: 2rem;
+  padding-top:    0rem;
+  padding-bottom: 0rem;
 }
 
 @media (min-width: 48em) {
