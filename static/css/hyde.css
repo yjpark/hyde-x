@@ -166,7 +166,34 @@ a.sidebar-nav-item:focus {
   }
 }
 
+/*
+ * None sidebar layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` on the right.
+ */
 
+.layout-none .content {
+  padding-top:    2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 48em) {
+  .layout-none .sidebar {
+    left: auto;
+    right: 0;
+  }
+  .layout-none .content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .layout-none .content {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
 
 /*
  * Themes
